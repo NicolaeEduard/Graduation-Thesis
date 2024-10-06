@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanResourcesDepartmentApplication", "HumanResourcesDepartmentApplication\HumanResourcesDepartmentApplication.csproj", "{231D76C3-EE0A-47BC-93AB-FF1B1DF1A0D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRManagementBlazorClient", "HRManagementBlazorClient\HRManagementBlazorClient.csproj", "{7C58E494-C7CB-4187-B825-6664292D2FF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{231D76C3-EE0A-47BC-93AB-FF1B1DF1A0D4} = {231D76C3-EE0A-47BC-93AB-FF1B1DF1A0D4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{231D76C3-EE0A-47BC-93AB-FF1B1DF1A0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231D76C3-EE0A-47BC-93AB-FF1B1DF1A0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231D76C3-EE0A-47BC-93AB-FF1B1DF1A0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231D76C3-EE0A-47BC-93AB-FF1B1DF1A0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C58E494-C7CB-4187-B825-6664292D2FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C58E494-C7CB-4187-B825-6664292D2FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C58E494-C7CB-4187-B825-6664292D2FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C58E494-C7CB-4187-B825-6664292D2FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3683BDC-A6C5-473F-8D90-C3A05F105D0D}
+	EndGlobalSection
+EndGlobal
